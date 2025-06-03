@@ -1,0 +1,71 @@
+.medicine-requests-container {
+ display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal center */
+  justify-content: center; /* vertical center */
+  height: 100vh; /* full viewport height */
+ 
+  
+  background-color: #f9f9f9;
+}
+
+.page-title {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.medicine-request-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.medicine-request-form label {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.medicine-request-form input,
+.medicine-request-form select,
+.datepicker-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.pdf-btn,
+.email-btn {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pdf-btn {
+  background-color: #3a40df;
+  color: white;
+}
+
+.email-btn {
+  background-color: #3a40df;
+  color: white;
+}
